@@ -528,8 +528,6 @@ nav {
   }
 }
 
-
-
 // TOC
 
 .toc {
@@ -540,7 +538,7 @@ nav {
   z-index: 4;
   padding: 60px 20px 0 20px;
   overflow-y: auto;
-
+  
   &:before{
     content:"目录";
     margin: 0 0 1em 1em;
