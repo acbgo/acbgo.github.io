@@ -1,1 +1,4 @@
 /.idea
+# jekyll local file
+.jekyll*
+_site
