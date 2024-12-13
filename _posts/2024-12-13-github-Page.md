@@ -30,6 +30,10 @@ pinned: false
 5. 将修改后的文件`git push`到自己的仓库
 6. 在GitHub上设置`GitHub Pages`，（这一步之前已经操作过了，在此不赘述，可以查看网上的众多攻略）
 
+## 后续可新增内容
+1. 可参考[博客](https://lemonchann.github.io/blog/create_blog_with_github_pages/#)来添加搜索功能和访问次数统计功能
+2. 尝试修改样式等
+
 ## 参考
 1. [GitHub Pages官方说明](https://pages.github.com/)
 2. [一位工程师的存档点](https://zxl19.github.io/)
