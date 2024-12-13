@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-这是一个程序员的存档点，主要用于记录个人在日常学习生活中遇到的一些好的教程文章。
+这是一个程序员的存档点，用于保存一些平时的学习笔记和技术总结。
 
 [归档](https://acbgo.github.io/archive/)中是按照更新时间排序的文章。
 

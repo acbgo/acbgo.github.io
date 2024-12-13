@@ -1,14 +1,26 @@
 #
-# This file contains configuration flags to customize your site
+# 这个文档包含了本博客的设定信息，你可以编辑它来个性化自己的博客，
 #
 
-# Name of your site (displayed in the header)
-name: "acbgo's blog"
-# Short bio or description (displayed in the header)
-description: "一个程序员的存档站"
+# 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
+# 注意，“name: LOFFER”，冒号后面的空格不可以省略。
+# 井号后面的文字是说明文档，不会被程序读取。
+
+# 描述/签名
+name: acbgo
+description: 一位程序员的存档点
+
+# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
+url: https://acbgo.github.io
+
+# 添加你的博客的二级域名，一般来说是你的repository名
+# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
+# 那么就写成 "/repository-name"
+baseurl:
+
 
 #
-# Flags below are optional
+# 下面的设定都是可选的
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
@@ -18,9 +30,7 @@ avatar: https://raw.githubusercontent.com/acbgo/acbgo.github.io/master/images/av
 favicon: https://raw.githubusercontent.com/acbgo/acbgo.github.io/master/images/icon.png
 
 
-# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
-# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
-# it from the list(Delete '- name: ' and 'url: ', too!)
+# 菜单中的按钮
 navigation:
   - name: 首页
     url: /
@@ -31,64 +41,59 @@ navigation:
   - name: 标签
     url: /tags
 
-# Pagination
+# 每页的文章数
 paginate: 8
 
+# 文章简介的区分标记
 excerpt_separator: <!-- more -->
 
-# Includes an icon in the footer for each username you enter
+# 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links:
-  #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  zhihu:
-  email: 1105717400@qq.com
-  facebook:
-  flickr:
-  github: acbgo
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  weibo:  # 请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  behance: # https://www.behance.net/<>
+  dribbble: # https://dribbble.com/<>
+  email: # youremailaddress@mail.com
+  facebook: # https://www.facebook.com/<>
+  flickr: # https://www.flickr.com/<>
+  github: acbgo # https://github.com/<>
+  instagram: # https://instagram.com/<>
+  linkedin: # https://www.linkedin.com/in/<>
+  pinterest: # https://www.pinterest.com/<>
+  rss: # 随便填点啥RSS就能用了
+  stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
-  #twitter: frommidworld
-  youtube:
+  twitter: # https://www.twitter.com/<your_twitter_username>
+  youtube: # channel/<your_long_string> or user/<user-name>
 
-# Text under the icons in footer
-footer-text: Copyright (c) 2024 acbgo
+# 站点页脚的文字
+footer-text: Copyright (c) 2020 acbgo
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: # fromendworld
+#
+# 评论，注意，请不要同时添加多种不同的评论区
+#
 
-# Gitalk
+# 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
+disqus: #shortname
+
+# 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-#  clientID: bd65d5c0df878155b7fa
-#  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: acbgo/acbgo.github.io
+  clientID:
+  clientSecret:
+  repo:
+  owner:
+
+# 输入Google Analytics web tracking code
+google_analytics:
+
+utteranc:
+  repo: acbgo/acbgo.github.io # Your github repo path, also see: https://utteranc.es
   issue-term: title
   label: comment
   theme: github-light
   crossorigin: anonymous
-  owner: acbgo
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-EB7MPZZH9P
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://acbgo.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-# baseurl: 
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# !! 以下所有设置都不需要更改 !!
 #
 
 permalink: /:title/
