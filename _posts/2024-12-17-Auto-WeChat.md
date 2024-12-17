@@ -64,4 +64,4 @@ pinned: false
 9. [wechat-bot](https://github.com/cixingguangming55555/wechat-bot)
 
 
-
+###### 另外笔者还尝试了像翻身喵一样注册服务号来使用，发现微信公众号有两种，分别是订阅号和服务号，但是服务号需要企业资质才能注册，订阅号不确定能否实现同样的功能，仍需进一步验证。
